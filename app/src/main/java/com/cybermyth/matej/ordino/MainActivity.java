@@ -54,7 +54,7 @@ public class MainActivity extends AppCompatActivity {
         adapter.addFragment(new FormsFragment(), "ONE");
         adapter.addFragment(new StatsFragment(), "TWO");
         adapter.addFragment(new FriendsFragment(), "THREE");
-        adapter.addFragment(new FriendsFragment(), "FOUR");
+        adapter.addFragment(new SettingsFragment(), "FOUR");
         viewPager.setAdapter(adapter);
     }
 
